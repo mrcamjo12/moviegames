@@ -1,9 +1,11 @@
-import PickYourGame from './Components/PickYourGame/PickYourGame'
+import Home from './Pages/Home/Home';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <PickYourGame />
+      <Home />
+      <Header />
     </div>
   );
 }
