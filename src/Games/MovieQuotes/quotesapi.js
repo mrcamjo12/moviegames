@@ -1,6 +1,6 @@
 import React from "react"
 
-const Quotes = [
+const quotes = [
     {
         id: 1,
         quote: `It's a hell of a thing killing a man. You take away all he's got... all he's ever gonna have`,
@@ -220,4 +220,4 @@ const Quotes = [
     },
 ]
 
-export default Quotes
+export default quotes
