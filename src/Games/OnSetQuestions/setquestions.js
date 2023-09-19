@@ -50,6 +50,24 @@ const setQuestions = [
         options: ['Audio Supervisor', 'Boom Operator', 'Audio Mixer', 'A2'],
         answer: 'A2'
     }, {
-        
+        id: 11,
+        question: `Who handles backing up media on set?`,
+        options: ['Director of Photography', 'Camera Assistant', 'Audio Mixer', 'Media Manager'],
+        answer: 'Media Manager'
+    }, {
+        id: 12,
+        question: `What kind of receipt do PAs need for lunch orders?`,
+        options: ['Credit Card', 'Cash', 'Itemized', 'None'],
+        answer: 'Itemized'
+    }, {
+        id: 13,
+        question: `What is the itemized list of equipment required when travelling to foreign countries?`,
+        options: ['Quote', 'Invoice', 'Carnet', 'Equipment List'],
+        answer: 'Carnet'
+    }, {
+        id: 14,
+        question: `What is the term for clearing out equipment and personnel from a location?`,
+        options: ['Exit', 'Martini Shot', 'Load Out', 'Load In'],
+        answer: 'Load Out'
     }
 ]

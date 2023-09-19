@@ -5,13 +5,13 @@ import Score from "../../Components/Score/Score";
 
 class KubrickTriviaQuiz extends Component {
     constructor(props) {
-    super(props);
-    this.state = {
-      qbank: kubrickQuestions,
-      currentQuestion: 0,  
-      score: 0,
-      quizend: false,
-      selectedOption: '',
+      super(props);
+      this.state = {
+       questionBank: kubrickQuestions,
+       currentQuestion: 0,  
+       score: 0,
+       quizend: false,
+       selectedOption: '',
     }
   }
 
@@ -26,15 +26,15 @@ class KubrickTriviaQuiz extends Component {
   }
 
   checkAnswer = () => {
-    const {qbank, currentQuestion, selectedOption, score} = this.state
-    if (selectedOption === qbank[currentQuestion].answer) {
+    const {questionBank, currentQuestion, selectedOption, score} = this.state
+    if (selectedOption === questionBank[currentQuestion].answer) {
       this.setState((prevState) => ({ score: prevState.score + 1}))
     }
   }
 
   handleNextQuestion = () => {
-    const { qbank, currentQuestion} = this.state;
-    if (currentQuestion + 1 < qbank.length) {
+    const { questionBank, currentQuestion} = this.state;
+    if (currentQuestion + 1 < questionBank.length) {
       this.setState((prevState) => ({ 
         currentQuestion: prevState.currentQuestion + 1,
         selectedOption: '',
@@ -48,12 +48,13 @@ class KubrickTriviaQuiz extends Component {
 
 
   render(){
-    const {qbank, currentQuestion, selectedOption, score, quizend} = this.state
+    const {questionBank, currentQuestion, selectedOption, score, quizend} = this.state
     return (
       <div>
+        <h1>Kubrick Questions</h1>
         {!quizend ? (
             <Question
-              question={qbank[currentQuestion]}
+              question={questionBank[currentQuestion]}
               selectedOption={selectedOption}
               onOptionChange={this.handleOptionChange}
               onSubmit={this.handleFormSubmit} 
@@ -62,10 +63,8 @@ class KubrickTriviaQuiz extends Component {
             <Score 
               score={score}
               onNextQuestion={this.handleNextQuestion}
-              selectedOption={selectedOption}
-              onOptionChange={this.handleOptionChange}
-              onSubmit={this.handleFormSubmit} 
-            />)}
+            />
+            )}
         </div>
     )
 }
