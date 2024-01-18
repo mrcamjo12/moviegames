@@ -10,18 +10,18 @@
         "correctAnswer": "Childwickbury"
     }, 
     {
-        "question": "What was Kubrick's first feature film?",
-        "options": ['Fear and Desire', 'The Killing', `Killer's Kiss`, 'Paths of Glory'],
-        "correctAnswer": 'Fear and Desire'
+        "question": "What was Kubrick first feature film?",
+        "options": ["Fear and Desire", "The Killing", "Killer's Kiss", "Paths of Glory"],
+        "correctAnswer": "Fear and Desire"
     }, {
-        "question": 'What is the title of the book The Killing is based on?',
-        "options": [`What's the Point?`, 'The Track Job', 'Race Heist', 'Clean Break'],
-        "correctAnswer": 'Clean break'
+        "question": "What is the title of the book The Killing is based on?",
+        "options": ["What's the Point?", "The Track Job", "Race Heist", "Clean Break"],
+        "correctAnswer": "Clean break"
     }, 
     {
-        "question": 'What horror film was Stanley offered to direct?',
-        "options": ['The Exorcist', 'Last House on the Left', 'Alien', 'Carrie'],
-        "correctAnswer": 'The Exorcist'
+        "question": "What horror film was Stanley offered to direct?",
+        "options": ["The Exorcist", "Last House on the Left", "Alien", "Carrie"],
+        "correctAnswer": "The Exorcist"
     }, 
     {
         "question": "Which director sent a fan letter to Kubrick that meant so much to Kubrick, he took so long to write a response that the director died before receiving the response?",
@@ -29,55 +29,53 @@
         "correctAnswer": "Akira Kurosawa"
     }, 
     {
-        "question": "Which director had lengthy conversations with Kubrick on the phone but when asking 
-        Kubrick about his own movie-making secrets, Kubrick acted like he couldn't talk?",
+        "question": "Which director had lengthy conversations with Kubrick on the phone but when asking Kubrick about his own movie-making secrets, Kubrick acted like he couldn't talk?",
         "options": ["Ingmar Bergman", "Federico Fellini", "Akira Kurosawa", "Andrei Tarkovsky"],
         "correctAnswer": "Federico Fellini"
     }, 
     {
-        "question": `Which foreign director's films did Kubrick describe as unearthly and brilliant in his fan
-        letter to the director?`,
-        "options": ['Ingmar Bergman', 'Federico Fellini', 'Akira Kurosawa', 'Andrei Tarkovsky'],
-        "correctAnswer": 'Ingmar Bergman'
+        "question": "Which foreign director's films did Kubrick describe as unearthly and brilliant in his fan letter to the director?",
+        "options": ["Ingmar Bergman", "Federico Fellini", "Akira Kurosawa", "Andrei Tarkovsky"],
+        "correctAnswer": "Ingmar Bergman"
     }, 
     {
-        "question": `Which actor is notorious for requiring the least amount of takes of Kubrick's collaborators?`,
-        "options": ['Jack Nicholson', 'Matthew Modine', 'Nicole Kidman', 'R. Lee Emery'],
-        "correctAnswer": 'R. Lee Emery'
+        "question": "Which actor is notorious for requiring the least amount of takes of Kubrick's collaborators?",
+        "options": ["Jack Nicholson", "Matthew Modine", "Nicole Kidman", "R. Lee Emery"],
+        "correctAnswer": "R. Lee Emery"
     }, 
     {
-        "question": 'What film did Kubrick meet his wife Christiane on?',
-        "options": ['The Killing', 'Spartacus', 'Paths of Glory', 'Fear and Desire'],
-        "correctAnswer": 'Paths of Glory'
+        "question": "What film did Kubrick meet his wife Christiane on?",
+        "options": ["The Killing", "Spartacus", "Paths of Glory", "Fear and Desire"],
+        "correctAnswer": "Paths of Glory"
     }, 
     {
-        "question": `Which of these was NOT a potential project for Stanley Kubrick?`,
-        options: ['Napoleon', 'Artificial Intelligence', 'Aryan Papers', 'Blade Runner'],
-        "correctAnswer": 'Blade Runner'
+        "question": "Which of these was NOT a potential project for Stanley Kubrick?",
+        "options": ["Napoleon", "Artificial Intelligence", "Aryan Papers", "Blade Runner"],
+        "correctAnswer": "Blade Runner"
     }, 
     {
-        question: `Which band requested that Kubrick direct them in a film?`,
-        options: ['The Rolling Stones', 'The Monkeys', 'The Beatles', 'Pink Floyd'],
-        "correctAnswer": 'The Beatles'
+        "question": "Which band requested that Kubrick direct them in a film?",
+        "options": ["The Rolling Stones", "The Monkeys", "The Beatles", "Pink Floyd"],
+        "correctAnswer": "The Beatles"
     }, 
     {
-        question: `What book did The Beatles want to adapt and have Kubrick direct?`,
-        options: ['The Sun also Rises', 'The Great Gatsby', 'The Lord of the Rings', '1984'],
-        "correctAnswer": 'The Lord of the Rings'
+        "question": "What book did The Beatles want to adapt and have Kubrick direct?",
+        "options": ["The Sun also Rises", "The Great Gatsby", "The Lord of the Rings", "1984"],
+        "correctAnswer": "The Lord of the Rings"
     },
     {
-        question: `Who acted in The Shining, A Clockwork Orange, and Barry Lyndon?`,
-        options: ['Philip Stone', 'Leon Vitali', 'Steven Berkoff', 'Patrick Magee'],
-        "correctAnswer": 'Philip Stone'
+        "question": "Who acted in The Shining, A Clockwork Orange, and Barry Lyndon?",
+        "options": ["Philip Stone", "Leon Vitali", "Steven Berkoff", "Patrick Magee"],
+        "correctAnswer": "Philip Stone"
     }, 
     {
-        question: `Who acted in Eyes Wide Shut and Barry Lyndon?`,
-        options: ['Philip Stone', 'Leon Vitali', 'Steven Berkoff', 'Patrick Magee'],
-        "correctAnswer": 'Leon Vitali'
+        "question": "Who acted in Eyes Wide Shut and Barry Lyndon?",
+        "options": ["Philip Stone", "Leon Vitali", "Steven Berkoff", "Patrick Magee"],
+        "correctAnswer": "Leon Vitali"
     }, 
     {
         "question": "Who in Stanley's family has appeared in 3 of his films?",
-        "options": ['Vivian', 'Christiane', 'Anya', 'Katherina'],
+        "options": ["Vivian", "Christiane", "Anya", "Katherina"],
         "correctAnswer": "Vivian"
     }
 ]
