@@ -1,0 +1,181 @@
+[
+    {
+        "question": "It's a hell of a thing killing a man. You take away all he's got... all he's ever gonna have",
+        "correctAnswer": "Unforgiven",
+        "options": ["Unforgiven", "The Wild Bunch", "Open Range", "Shane"]
+    },
+    {
+        "question": "Fly you fools",
+        "correctAnswer": "The Lord of the Rings: The Fellowship of the Ring",
+        "options": ["Eddie the Eagle", "Fly Away Home", "The Lord of the Rings: The Fellowship of the Ring", "Flight"]
+    },
+    {
+        "question": "We'll always have Paris",
+        "correctAnswer": "Casablanca",
+        "options": ["Gone With the Wind", "The Philadelphia Story", "Casablanca", "Sleepless in Seattle"]
+
+    },
+    {
+        "question": "The uhh... stuff that dreams are made of.",
+        "correctAnswer": "The Maltese Falcon",
+        "options": ["The Big Sleep", "Key Largo", "The Maltese Falcon", "Double Indemnity"]
+    },
+    {
+        "question": "How could I have known that murder could sometimes smell like honeysuckle?",
+        "correctAnswer": "Double Indemnity",
+        "options": ["Detour", "In a Lonely Place", "Laura", "Double Indemnity"]
+    },
+    {
+        "question": "A man doesn't tell a woman what to do. She tells herself.",
+        "correctAnswer": "Notorious",
+        "options": ["Notorious", "The Killing", "Double Indemnity", "Key Largo"]
+    },
+    {
+        "question": "Neither do I, baby, but if I have to, I'm going to die last.",
+        "correctAnswer": "Out of the Past",
+        "options": ["Detour", "Out of the Past", "Double Indemnity", "To Have and Have Not"]
+    },
+    {
+        "question": "Badges? We ain't got no badges. We don't need no badges. I don't have to show you any stinking badges.",
+        "correctAnswer": "The Treasure of the Sierra Madre",
+        "options": ["The Wild Bunch", "For a Few Dollars More", "The Treasure of the Sierra Madre", "Shane"]
+    },
+    {
+        "question": "I was born when she kissed me. I died when she left me. I lived a few weeks while she loved me.",
+        "correctAnswer": "In a Lonely Place",
+        "options": ["The Big Sleep", "To Have and Have Not", "Key Largo", "In a Lonely Place"]
+    },
+    {
+        "question": "I AM big. It's the pictures that got small.",
+        "correctAnswer": "Sunset Blvd.",
+        "options": ["Sunset Blvd.", "Ace in the Hole", "All That Jazz", "Some Like it Hot"]
+    },
+    {
+        "question": "Fasten your seatbelts, it's going to be a bumpy night!",
+        "correctAnswer": "All About Eve",
+        "options": ["The Big Sleep", "All About Eve", "It Happened One Night", "My Man Godfrey"]
+    },
+    {
+        "question": "You don't understand. I coulda had class. I coulda been a contender. I coulda been somebody, instead of a bum, which is what I am, let's face it. It was you, Charley.",
+        "correctAnswer": "On the Waterfront",
+        "options": ["To Have and Have Not", "White Heat", "On the Waterfront", "A Streetcar Named Desire"]
+    },
+    {
+        "question": "Why would a man leave his apartment three times on a rainy night with a suitcase and come back three times?",
+        "correctAnswer": "Rear Window",
+        "options": ["North by Northwest", "Rear Window", "Psycho", "The Birds"]
+    },
+    {
+        "question": "Would you like me to tell you the little story of right-hand/left-hand? The story of good and evil?",
+        "correctAnswer": "The Night of the Hunter",
+        "options": ["The Night of the Hunter", "Out of the Past", "Cape Fear", "Angel Face"]
+    },
+    {
+        "question": "That's funny, that plane's dustin' crops where there ain't no crops.",
+        "correctAnswer": "North by Northwest",
+        "options": ["Rear Window", "Shadow of a Doubt", "North by Northwest", "Psycho"]
+    },
+    {
+        "question": "I haven't seen Berlin yet, from the ground or from the air, and I plan on doing both before the war is over.",
+        "correctAnswer": "The Great Escape",
+        "options": ["The Magnificent Seven", "The Great Escape", "Bullitt", "The Cincinatti Kid"]
+    },
+    {
+        "question": "I swear, if you existed, I'd divorce you.",
+        "correctAnswer": "Who's Afraid of Virginia Woolf?",
+        "options": ["Awakenings", "Who's Afraid of Virginia Woolf?", "Giant", "Cat on a Hot Tin Roof"]
+    },
+    {
+        "question": "Well that's you, Marlowe. You'll never learn, you're a born loser.",
+        "correctAnswer": "The Long Goodbye",
+        "options": ["The Big Sleep", "The Long Goodbye", "Marlowe", "Farewell, My Lovely"]
+    },
+    {
+        "question": "The swan's escaped",
+        "correctAnswer": "Hot Fuzz",
+        "options": ["The World's End", "Shaun of the Dead", "Hot Fuzz", "Baby Driver"]
+    },
+    {
+        "question": "Did he just say funky butt loving?",
+        "correctAnswer": "Rookie of the Year",
+        "options": ["Rookie of the Year", "The Big Green", "A Kid in King Arthur's Court", "Little Big League"]
+    },
+    {
+        "question": "Keep your lovin' brother happy.",
+        "correctAnswer": "Once Upon a Time in the West",
+        "options": ["The Wild Bunch", "Once Upon a Time in the West", "Unforgiven", "Shane"]
+    },
+    {
+        "question": "Leave the gun...take the cannolis",
+        "correctAnswer": "The Godfather",
+        "options": ["The Godfather", "The Godfather II", "Goodfellas", "Casino"]
+    },
+    {
+        "question": "Smile, you son of a bitch!",
+        "correctAnswer": "Jaws",
+        "options": ["The Dentist", "The Meg", "Jaws", "Aliens"]
+    },
+    {
+        "question": "ATTICA! ATTICA! ATTICA!",
+        "correctAnswer": "Dog Day Afternoon",
+        "options": ["Dog Day Afternoon", "Serpico", "12 Angry Men", "Network"]
+    },
+    {
+        "question": "You're gonna eat lightnin' and you're gonna crap thunder!",
+        "correctAnswer": "Rocky",
+        "options": ["Rocky", "Rocky 2", "Rocky 3", "Creed"]
+    },
+    {
+        "question": "I'm listening to the fucking song!",
+        "correctAnswer": "Slap Shot",
+        "options": ["Miracle", "Mystery, Alaska", ""]
+    },
+    {
+        "question": "You talkin' to me? You talkin' to me?",
+        "correctAnswer": "Taxi Driver"
+    },
+    {
+        "question": "I'm sorry, Dave. I'm afraid I can't do that.",
+        "correctAnswer": "2001: A Space Odyssey"
+    },
+    {
+        "question": "A census taker once tried to test me. I ate his liver with some fava beans and a nice chianti.",
+        "correctAnswer": "The Silence of the Lambs"
+    },
+    {
+        "question": "Closer, please. Clo-ser...",
+        "correctAnswer": "The Silence of the Lambs"
+    },
+    {
+        "question": "All right, you proved your point. You broke into my vault. Congratulations, you're a dead man.",
+        "correctAnswer": "Ocean's Eleven"
+    },
+    {
+        "question": "We're gonna be doin' one thing and one thing only... killin' Nazis",
+        "correctAnswer": "Inglourious Basterds"
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+]
