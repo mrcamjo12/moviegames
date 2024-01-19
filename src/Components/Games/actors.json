@@ -1,0 +1,17 @@
+[
+    {
+        "question": ["12 Angry Men, My Darling Clementine, The Lady Eve, The Grapes of Wrath"],
+        "correctAnswer": "Henry Fonda",
+        "options": ["Henry Fonda", "Tim Holt", "John Fielder", "Charles Bronson"]
+    }, 
+    {
+        "question": ["Star Wars: The Force Awakens, The World's End, Ready Player One, Paul"],
+        "correctAnswer": "Simon Pegg",
+        "options": ["Martin Freeman", "Simon Pegg", "Mark Rylance", "Nick Frost"]
+    }, 
+    {
+        "question": ["Kung Fu Panda, Donnie Darko, Super Mario Bros., Superbad"],
+        "correctAnswer": "Seth Rogen",
+        "options": ["Jonah Hill", "Simon Pegg", "Seth Rogen", "Jack Black"]
+    }
+]
