@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Quiz from './quiz';
+import Quiz from './Quiz';
 
 const QuizSelection = () => {
   const [selectedQuiz, setSelectedQuiz] = useState(null);
@@ -11,9 +11,11 @@ const QuizSelection = () => {
   return (
     <div>
       <h2>Select a Quiz:</h2>
-      <button onClick={() => handleQuizSelection('quiz1')}>Quiz 1</button>
-      <button onClick={() => handleQuizSelection('quiz2')}>Quiz 2</button>
-
+      <button onClick={() => handleQuizSelection('actors')}>Name that Actor</button>
+      <button onClick={() => handleQuizSelection('directors')}>Name that Director</button>
+      <button onClick={() => handleQuizSelection('kubrick')}>Stanley Kubrick Trivia</button>
+      <button onClick={() => handleQuizSelection('samurai')}>Samurai Movies</button>
+      <button onClick={() => handleQuizSelection('setquestions')}>Questions from Set</button>
       {selectedQuiz && <Quiz selectedQuiz={selectedQuiz} />}
     </div>
   );

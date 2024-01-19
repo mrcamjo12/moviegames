@@ -6,7 +6,7 @@ const Quiz = ({ selectedQuiz }) => {
 
   useEffect(() => {
     // Simulate fetching quiz questions based on the selected quiz
-    import(`./path/to/${selectedQuiz}.json`)
+    import(`./Games/${selectedQuiz}.json`)
       .then((module) => module.default)
       .then((data) => {
         setQuizQuestions(data);
