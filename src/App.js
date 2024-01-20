@@ -11,8 +11,11 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>Quiz App</h1>
+    <div className='main-container'>
+      <h1>Cam's Movie Games</h1>
+
+      {/* Scoreboard component for displaying high scores */}
+      <Scoreboard />
 
       {/* QuizSelection component for selecting a quiz */}
       <QuizSelection onSelectQuiz={handleQuizSelection} />
@@ -20,8 +23,6 @@ const App = () => {
       {/* Quiz component for displaying quiz questions */}
       {selectedQuiz && <Quiz selectedQuiz={selectedQuiz} />}
 
-      {/* Scoreboard component for displaying high scores */}
-      <Scoreboard />
     </div>
   );
 };

@@ -9,7 +9,7 @@ const QuizSelection = () => {
   };
 
   return (
-    <div>
+    <div className='game-selection'>
       <h2>Select a Quiz:</h2>
       <button onClick={() => handleQuizSelection('actors')}>Name that Actor</button>
       <button onClick={() => handleQuizSelection('directors')}>Name that Director</button>

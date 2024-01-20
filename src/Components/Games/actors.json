@@ -13,5 +13,45 @@
         "question": ["Kung Fu Panda, Donnie Darko, Super Mario Bros., Superbad"],
         "correctAnswer": "Seth Rogen",
         "options": ["Jonah Hill", "Simon Pegg", "Seth Rogen", "Jack Black"]
+    },
+    {
+        "question": ["Dead Poets Society, Robocop, To Die For, A Time to Kill"],
+        "correctAnswer": "Kurtwood Smith",
+        "options": ["Ethan Hawke", "Matt Dillon", "Kurtwood Smith", "Kiefer Sutherland"]
+    },
+    {
+        "question": ["Mulan, Iron Man 3, Twin Peaks: The Return, Robocop"],
+        "correctAnswer": "Miguel Ferrer",
+        "options": ["Tom Sizemore", "Guy Pearce", "Kurtwood Smith", "Miguel Ferrer"]
+    },
+    {
+        "question": ["Fantastic Mr. Fox, Adaptation, Don't Look Up, Artificial Intelligence"],
+        "correctAnswer": "Meryl Streep",
+        "options": ["Meryl Streep", "George Clooney", "Ben Kingsley", "Tilda Swinton"]
+    },
+    {
+        "question": ["The Devil Wears Prada, Sicario, Looper, Dan in Real Life"],
+        "correctAnswer": "Emily Blunt",
+        "options": ["Joseph Gordon-Levitt", "Emily Blunt", "Benecio Del Toro", "Meryl Streep"]
+    },
+    {
+        "question": ["Spotlight, Easy A, The Terminal, Road to Perdition"],
+        "correctAnswer": "Stanley Tucci",
+        "options": ["Stanley Tucci", "Tom Hanks", "Catherine Zeta-Jones", "Liev Schriber"]
+    },
+    {
+        "question": ["The Whole Nine Yards, After Hours, Joe Dirt, Pulp Fiction"],
+        "correctAnswer": "Rosanna Arquette",
+        "options": ["Harvey Keitel", "Natasha Henstridge", "Uma Thurman", "Rosanna Arquette"]
+    },
+    {
+        "question": [""],
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "question": [""],
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
     }
 ]

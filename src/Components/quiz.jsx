@@ -35,13 +35,13 @@ const Quiz = ({ selectedQuiz }) => {
   }
 
   return (
-    <div>
+    <div className='quiz-container'>
       <h2>{currentQuestion.question}</h2>
       <ul>
         {currentQuestion.options.map((option, index) => (
-          <li key={index} onClick={() => handleAnswer(option)}>
+          <button key={index} onCbuttonck={() => handleAnswer(option)}>
             {option}
-          </li>
+          </button>
         ))}
       </ul>
     </div>
