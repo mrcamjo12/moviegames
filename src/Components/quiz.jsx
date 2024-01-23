@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import ScoreDisplay from './ScoreDisplay';
 
 const Quiz = ({ selectedQuiz }) => {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [quizCompleted, setQuizCompleted] = useState(false);
 
   useEffect(() => {
     // Simulate fetching quiz questions based on the selected quiz
@@ -18,14 +21,20 @@ const Quiz = ({ selectedQuiz }) => {
   const handleAnswer = (selectedOption) => {
     // Implement logic to handle user's answer and move to the next question
     // Update state accordingly
-    // For simplicity, let's just move to the next question
+    const isCorrect = selectedOption === currentQuestion.correctAnswer;
+
+    if (isCorrect) {
+      setCorrectAnswers((prevCorrectAnswers) => prevCorrectAnswers + 1);
+    }
+
     const currentIndex = quizQuestions.indexOf(currentQuestion);
     const nextIndex = currentIndex + 1;
 
     if (nextIndex < quizQuestions.length) {
       setCurrentQuestion(quizQuestions[nextIndex]);
     } else {
-      // End of quiz logic, navigate to the result or another component
+      // End of quiz logic
+      setQuizCompleted(true);
     }
   };
 
@@ -34,12 +43,17 @@ const Quiz = ({ selectedQuiz }) => {
     return <div>Loading...</div>;
   }
 
+  if (quizCompleted) {
+    // Render the score display component if the quiz is completed
+    return <ScoreDisplay correctAnswers={correctAnswers} totalQuestions={quizQuestions.length} />;
+  }
+
   return (
     <div className='quiz-container'>
       <h2>{currentQuestion.question}</h2>
       <ul>
         {currentQuestion.options.map((option, index) => (
-          <button key={index} onCbuttonck={() => handleAnswer(option)}>
+          <button key={index} onClick={() => handleAnswer(option)}>
             {option}
           </button>
         ))}
