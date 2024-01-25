@@ -5,24 +5,34 @@
 }
 
 button {
-    color: white;
+    color: #ffffff;
+}
+
+.quiz-button {
+    color: red;
+    background-color: white;
+    width: 400px;
+    height: 180px;
+    font-size: 35px;
 }
 
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-gap: 20px;
+    grid-template-rows: 2fr;
+    grid-gap: 2%;
     justify-items: center;
     color: yellow;
 }
 
 .game-selection {
-    background-color: red;
+    margin-top: 5%;
     color: white;
-    width: 100%;
+    width: 80%;
 }
 
 .quiz-container {
+    margin-top: 5%;
     font-size: 2rem;
     grid-template-rows: auto;
 }

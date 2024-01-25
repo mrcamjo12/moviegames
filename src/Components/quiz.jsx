@@ -1,7 +1,8 @@
+// Quiz.jsx
 import React, { useState, useEffect } from 'react';
 import ScoreDisplay from './ScoreDisplay';
 
-const Quiz = ({ selectedQuiz }) => {
+const Quiz = ({ selectedQuiz, onQuizComplete }) => {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -35,7 +36,21 @@ const Quiz = ({ selectedQuiz }) => {
     } else {
       // End of quiz logic
       setQuizCompleted(true);
+      onQuizComplete(correctAnswers);
     }
+  };
+
+  const restartQuiz = () => {
+    // Reset quiz state to start the quiz again
+    setCurrentQuestion(quizQuestions[0]);
+    setCorrectAnswers(0);
+    setQuizCompleted(false);
+  };
+
+  const backToHome = () => {
+    // Implement navigation to the home landing page
+    // You can use react-router or any other navigation method here
+    console.log('Navigate back to home');
   };
 
   if (!currentQuestion) {
@@ -45,7 +60,7 @@ const Quiz = ({ selectedQuiz }) => {
 
   if (quizCompleted) {
     // Render the score display component if the quiz is completed
-    return <ScoreDisplay correctAnswers={correctAnswers} totalQuestions={quizQuestions.length} />;
+    return <ScoreDisplay correctAnswers={correctAnswers} totalQuestions={quizQuestions.length} onRestartQuiz={restartQuiz} onBackToHome={backToHome} />;
   }
 
   return (

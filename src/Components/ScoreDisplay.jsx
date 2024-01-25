@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ScoreDisplay = ({ correctAnswers, totalQuestions }) => {
+const ScoreDisplay = ({ correctAnswers, totalQuestions, onRestartQuiz, onBackToHome }) => {
   // Calculate the user's score
   const userScore = correctAnswers * 5;
 
@@ -10,6 +10,10 @@ const ScoreDisplay = ({ correctAnswers, totalQuestions }) => {
       <p>Your Score:</p>
       <p>{correctAnswers} correct out of {totalQuestions} questions</p>
       <p>Score: {userScore} points</p>
+      <div className='buttons-container'>
+        <button onClick={onBackToHome}>Back to Home</button>
+        <button onClick={onRestartQuiz}>Take the Quiz Again</button>
+      </div>
     </div>
   );
 };

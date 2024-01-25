@@ -154,52 +154,62 @@
         "id": 26,
         "question": "I'm listening to the fucking song!",
         "correctAnswer": "Slap Shot",
-        "options": ["Miracle", "Mystery, Alaska", ""]
+        "options": ["Miracle", "Mystery, Alaska", "Slap Shot", "Semi-Pro"]
     },
     {
         "id": 27,
         "question": "You talkin' to me? You talkin' to me?",
-        "correctAnswer": "Taxi Driver"
+        "correctAnswer": "Taxi Driver",
+        "options": ["Mean Streets", "Taxi Driver", "Who's That Knocking At My Door?", "Out of the Past"]
+
     },
     {
+        "id": 28,
         "question": "I'm sorry, Dave. I'm afraid I can't do that.",
-        "correctAnswer": "2001: A Space Odyssey"
+        "correctAnswer": "2001: A Space Odyssey",
+        "options": ["2001: A Space Odyssey", "Blade Runner", "Blade Runner 2049", "A Clockwork Orange"]
     },
     {
+        "id": 29,
         "question": "A census taker once tried to test me. I ate his liver with some fava beans and a nice chianti.",
-        "correctAnswer": "The Silence of the Lambs"
+        "correctAnswer": "The Silence of the Lambs",
+        "options": ["The Big Sleep", "Hannibal", "The Silence of the Lambs", "A Clockwork Orange"]
     },
     {
+        "id": 30,
         "question": "Closer, please. Clo-ser...",
-        "correctAnswer": "The Silence of the Lambs"
+        "correctAnswer": "The Silence of the Lambs",
+        "options": ["A Streetcar Named Desire", "Who's Afraid of Virginia Woolf?", "The Silence of the Lambs", "A Clockwork Orange"]
     },
     {
+        "id": 31,
         "question": "All right, you proved your point. You broke into my vault. Congratulations, you're a dead man.",
-        "correctAnswer": "Ocean's Eleven"
+        "correctAnswer": "Ocean's Eleven",
+        "options": ["Inside Man", "Once Upon a Time in the West", "Ocean's Eleven", "Casino"]
     },
     {
+        "id": 32,
         "question": "We're gonna be doin' one thing and one thing only... killin' Nazis",
-        "correctAnswer": "Inglourious Basterds"
+        "correctAnswer": "Inglourious Basterds",
+        "options": ["Ace in the Hole", "Inglourious Basterds", "Farewell, My Lovely", "The Wild Bunch"]
     },
     {
-        "question": "",
-        "correctAnswer": ""
+        "id": 33,
+        "question": "FOOL OF A TOOK",
+        "correctAnswer": "The Lord of the Rings: The Fellowship of the Ring",
+        "options": ["The Lord of the Rings: The Two Towers", "Willow", "Lord of the Flies", "The Lord of the Rings: The Fellowship of the Ring"]  
     },
     {
-        "question": "",
-        "correctAnswer": ""
+        "id": 34,
+        "question": "You ever dance with the devil in the pale moonlight?",
+        "correctAnswer": "Batman",
+        "options": ["Batman Begins", "The Dark Knight", "Batman", "Batman Returns"]  
     },
     {
-        "question": "",
-        "correctAnswer": ""
-    },
-    {
-        "question": "",
-        "correctAnswer": ""
-    },
-    {
-        "question": "",
-        "correctAnswer": ""
+        "id": 35,
+        "question": "Let me know when your whole life goes up in smoke. Means it's time for a promotion.",
+        "correctAnswer": "The Devil Wears Prada",
+        "options": ["The Devil Wears Prada", "The Intern", "The Internship", "What Women Want"]  
     }
 
 ]
