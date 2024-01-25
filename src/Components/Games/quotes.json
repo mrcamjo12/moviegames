@@ -149,5 +149,57 @@
         "question": "You're gonna eat lightnin' and you're gonna crap thunder!",
         "correctAnswer": "Rocky",
         "options": ["Rocky", "Rocky 2", "Rocky 3", "Creed"]
+    },
+    {
+        "id": 26,
+        "question": "I'm listening to the fucking song!",
+        "correctAnswer": "Slap Shot",
+        "options": ["Miracle", "Mystery, Alaska", ""]
+    },
+    {
+        "id": 27,
+        "question": "You talkin' to me? You talkin' to me?",
+        "correctAnswer": "Taxi Driver"
+    },
+    {
+        "question": "I'm sorry, Dave. I'm afraid I can't do that.",
+        "correctAnswer": "2001: A Space Odyssey"
+    },
+    {
+        "question": "A census taker once tried to test me. I ate his liver with some fava beans and a nice chianti.",
+        "correctAnswer": "The Silence of the Lambs"
+    },
+    {
+        "question": "Closer, please. Clo-ser...",
+        "correctAnswer": "The Silence of the Lambs"
+    },
+    {
+        "question": "All right, you proved your point. You broke into my vault. Congratulations, you're a dead man.",
+        "correctAnswer": "Ocean's Eleven"
+    },
+    {
+        "question": "We're gonna be doin' one thing and one thing only... killin' Nazis",
+        "correctAnswer": "Inglourious Basterds"
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
+    },
+    {
+        "question": "",
+        "correctAnswer": ""
     }
+
 ]
