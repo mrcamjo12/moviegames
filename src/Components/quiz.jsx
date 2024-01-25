@@ -65,10 +65,10 @@ const Quiz = ({ selectedQuiz, onQuizComplete }) => {
 
   return (
     <div className='quiz-container'>
-      <h2>{currentQuestion.question}</h2>
+      <h2 className='quote'>{currentQuestion.question}</h2>
       <ul>
         {currentQuestion.options.map((option, index) => (
-          <button key={index} onClick={() => handleAnswer(option)}>
+          <button className="answer-button" key={index} onClick={() => handleAnswer(option)}>
             {option}
           </button>
         ))}
