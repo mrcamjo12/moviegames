@@ -210,6 +210,48 @@
         "question": "Let me know when your whole life goes up in smoke. Means it's time for a promotion.",
         "correctAnswer": "The Devil Wears Prada",
         "options": ["The Devil Wears Prada", "The Intern", "The Internship", "What Women Want"]  
+    },
+    {
+        "id": 36,
+        "question": "But if it makes you happy to feed squirrels to the nuts, who am I to say, 'nuts to the squirrels?'",
+        "correctAnswer": "Cluny Brown",
+        "options": ["Cluny Brown", "Gilda", "The Big Sleep", "Brief Encounter"]
+    },
+    {
+        "id": 37,
+        "question": "The power to kill can be just as satisfying as the power to create.",
+        "correctAnswer": "Rope",
+        "options": ["Psycho", "The Birds", "Rope", "Sabotage"]
+    },
+    {
+        "id": 38,
+        "question": "Look down there. Tell me. Would you really feel any pity if one of those dots stopped moving forever?",
+        "correctAnswer": "The Third Man",
+        "options": ["Citizen Kane", "Back to the Future", "The Third Man", "Ace in the Hole"]   
+    },
+    {
+        "id": 39,
+        "question": "Made it, Ma! Top of the world!",
+        "correctAnswer": "White Heat",
+        "options": ["White Heat", "The Roaring Twenties", "Angel Face", "Ace in the Hole"]
+    },
+    {
+        "id": 40,
+        "question": "Bad news sells best. Cause good news is no news.",
+        "correctAnswer": "Ace in the Hole",
+        "options": ["All That Jazz", "Ace in the Hole", "Angel Face", "Dog Day Afternoon"]
+    },
+    {
+        "id": 41,
+        "question": "Scottie, do you believe that someone out of the past - someone dead - can enter and take possession of a living being?",
+        "correctAnswer": "Vertigo",
+        "options": ["Night of the Living Dead", "Shaun of the Dead", "Vertigo", "Psycho"]
+    }, 
+    {
+        "id": 42,
+        "question": "That's the way it crumbles... cookie-wise.",
+        "correctAnswer": "The Apartment",
+        "options": ["The Apartment", "Double Indemnity", "Bruce Almighty", "Evan Almighty"]
     }
 
 ]
