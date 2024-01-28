@@ -20,7 +20,7 @@ const QuizSelection = () => {
     // Render the quiz selection section if a quiz is not started
     return (
       <div className='game-selection'>
-        <h2>Select a Quiz:</h2>
+        <h2>Select a Game:</h2>
         <button className = 'quiz-button' onClick={() => handleQuizSelection('actors')}>Name that Actor</button>
         <button className = 'quiz-button' onClick={() => handleQuizSelection('directors')}>Name that Director</button>
         <button className = 'quiz-button' onClick={() => handleQuizSelection('kubrick')}>Stanley Kubrick Trivia</button>

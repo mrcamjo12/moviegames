@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className='main-container'>
-      <h1 className='heading'><a href="/">Camjo's Movie Games</a></h1>
+      <h1 className='heading'><a href="/">Camjo's Movie Trivia</a></h1>
 
       {/* Scoreboard component for displaying high scores */}
       <Scoreboard />

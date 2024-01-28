@@ -252,6 +252,66 @@
         "question": "That's the way it crumbles... cookie-wise.",
         "correctAnswer": "The Apartment",
         "options": ["The Apartment", "Double Indemnity", "Bruce Almighty", "Evan Almighty"]
+    },
+    {
+        "id": 43,
+        "question": "Intelligence. Nothing has caused the human race so much trouble as intelligence.",
+        "correctAnswer": "Rear Window",
+        "options": ["Sabotage", "Tinker, Tailor, Soldier, Spy", "Three Days of the Condor", "Rear Window"]
+    },
+    {
+        "id": 44,
+        "question": "By the way, you know anything about a man going around playing the harmonica? He's somebody you'd remember. Instead of talking, he plays. And when he better play, he talks.",
+        "correctAnswer": "Once Upon a Time in the West",
+        "options": ["For a Few Dollars More", "The Good, The Bad and The Ugly", "On the Waterfront", "Once Upon a Time in the West"]
+    },
+    {
+        "id": 45,
+        "question": "",
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": 46,
+        "question": "",
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": 47,
+        "question": "",
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": 48,
+        "question": "",
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": 49,
+        "question": "",
+        "correctAnswer": "",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": 50,
+        "question": "You know, Jill, you remind me of my mother. She was the biggest whore in Alameda and the finest woman that ever lived.",
+        "correctAnswer": "Once Upon a Time in the West",
+        "options": ["Once Upon a Time in the West", "The Good, The Bad and The Ugly", "For a Few Dollars More", "The Wild Bunch"]
+    },
+    {
+        "id": 51,
+        "question": "If those little sweethearts won't face German bullets, then by God, they'll face French ones!",
+        "correctAnswer": "Paths of Glory",
+        "options": ["Paths of Glory", "Full Metal Jacket", "A Clockwork Orange", "Platoon"]
+    },
+    {
+        "id": 52,
+        "question": "Why would Thorwald want to kill a little dog? Because it knew too much?",
+        "correctAnswer": "Rear Window",
+        "options": ["Sabotage", "Rear Window", "Vertigo", "Psycho"]
     }
 
 ]
