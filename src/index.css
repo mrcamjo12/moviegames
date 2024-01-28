@@ -4,24 +4,6 @@
     background-color: #040303;
 }
 
-button {
-    color: #ffffff;
-}
-
-.quiz-button {
-    color: #FFEB67;
-    background-color: #3F3E3E;
-    width: 400px;
-    height: 180px;
-    font-size: 35px;
-}
-
-.heading {
-    font-size: 30px;
-    color: #6F7F8B;
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -31,17 +13,6 @@ a:visited {
     text-decoration: none;
 }
 
-
-.answer-button {
-    margin-top: 20px;
-    color: white;
-    font-style: oblique;
-    background-color: black;
-    width: 325px;
-    height: 175px;
-    font-size: 25px;
-}
-
 .main-container {
     display: grid;
     grid-template-columns: 5fr 1fr;
@@ -49,8 +20,14 @@ a:visited {
     color: yellow;
 }
 
+.heading {
+    font-size: 30px;
+    color: #8B8C99;
+    text-decoration: none;
+}
+
 .game-selection {
-    margin-top: 5%;
+    margin-top: 2rem;
     color: white;
     width: 80%;
 }
@@ -61,17 +38,42 @@ a:visited {
     grid-template-rows: auto;
 }
 
-.quote {
-    color: red;
-    font-size: 50px;
+.quiz-button {
+    color: #FFEB67;
+    background-color: #3F3E3E;
+    width: 400px;
+    height: 180px;
+    font-size: 35px;
+}
+
+.question {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    margin-left: 9rem;
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+
+.answer-button {
+    align-items: center;
+    grid-template-columns: 2fr 2fr;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+    width: 30rem;
+    height: 7rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 760px) {
-        
-.main-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
 }
-
