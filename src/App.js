@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Quiz from './Components/Quiz.jsx';
-import Scoreboard from './Components/Scoreboard';
 import QuizSelection from './Components/QuizSelector.jsx';
 
 const App = () => {
@@ -11,11 +10,10 @@ const App = () => {
   };
 
   return (
+  <>
+    <h1 className='heading'><a href="/">Camjo's Movie Trivia</a></h1>
     <div className='main-container'>
-      <h1 className='heading'><a href="/">Camjo's Movie Trivia</a></h1>
-
-      {/* Scoreboard component for displaying high scores */}
-      <Scoreboard />
+      
 
       {/* QuizSelection component for selecting a quiz */}
       <QuizSelection onSelectQuiz={handleQuizSelection} />
@@ -24,6 +22,7 @@ const App = () => {
       {selectedQuiz && <Quiz selectedQuiz={selectedQuiz} />}
 
     </div>
+  </>  
   );
 };
 

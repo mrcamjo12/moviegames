@@ -1,18 +1,16 @@
 import React from 'react';
 
 const ScoreDisplay = ({ correctAnswers, totalQuestions, onRestartQuiz, onBackToHome }) => {
-  // Calculate the user's score
-  const userScore = correctAnswers * 5;
+  const percentage = ((correctAnswers / totalQuestions) * 100).toFixed(0);
 
   return (
     <div className='score-display'>
-      <h2>Quiz Completed!</h2>
-      <p>Your Score:</p>
-      <p>{correctAnswers} correct out of {totalQuestions} questions</p>
-      <p>Score: {userScore} points</p>
-      <div className='buttons-container'>
-        <button onClick={onBackToHome}>Back to Home</button>
-        <button onClick={onRestartQuiz}>Take the Quiz Again</button>
+      <h2>Your Score:</h2>
+      <p>{correctAnswers} out of {totalQuestions} correct</p>
+      <p>Score: {percentage}%</p>
+      <div>
+        <button className='return-button' onClick={onRestartQuiz}>Take Quiz Again</button>
+        <button className='return-button' onClick={onBackToHome}>Back to Home</button>
       </div>
     </div>
   );
