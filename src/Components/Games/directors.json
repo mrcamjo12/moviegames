@@ -1,7 +1,8 @@
 [
     {
-        "question": ["The Devil Wears Prada, Marley and Me, Band of Brothers, Collateral Beauty"],
-        "correctAnswer": "David Frankel",
-        "options": ["Tim Van Patten", "Rob Marshall", "Jay Russell", "David Frankel"]
+        "id": 1,
+        "type": "fillInAnswer",
+        "question": ["Silence, The Last Waltz, Taxi Driver, Bringing Out the Dead, Goodfellas"],
+        "correctAnswer": "Martin Scorsese"
     }
 ]

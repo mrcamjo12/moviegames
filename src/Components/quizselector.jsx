@@ -26,6 +26,13 @@ const QuizSelection = () => {
         <button className = 'quiz-button' onClick={() => handleQuizSelection('kubrick')}>Stanley Kubrick Trivia</button>
         <button className = 'quiz-button' onClick={() => handleQuizSelection('setquestions')}>Questions from Set</button>
         <button className = 'quiz-button' onClick={() => handleQuizSelection('quotes')}>Movie Quotes</button>
+        <h2>Coming Soon...</h2>
+        <button className = 'quiz-button' onClick={() => handleQuizSelection('fortiesfiftiessixties')}>40's 50's and 60's</button>
+        <button className = 'quiz-button' onClick={() => handleQuizSelection('seventies')}>The 70s</button>
+        <button className = 'quiz-button' onClick={() => handleQuizSelection('eighties')}>The 80s</button>
+        <button className = 'quiz-button' onClick={() => handleQuizSelection('nineties')}>The 90s</button>
+        <button className = 'quiz-button' onClick={() => handleQuizSelection('oscarlosers')}>Oscar Losers</button>
+
       </div>
     );
   }

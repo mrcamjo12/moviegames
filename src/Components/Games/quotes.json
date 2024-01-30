@@ -1,18 +1,21 @@
 [
     {
         "id": 1,
+        "type": "multipleChoice",
         "question": "It's a hell of a thing killing a man. You take away all he's got... all he's ever gonna have",
         "correctAnswer": "Unforgiven",
         "options": ["Unforgiven", "The Wild Bunch", "Open Range", "Shane"]
     },
     {
         "id": 2,
+        "type": "multipleChoice",
         "question": "Fly you fools",
         "correctAnswer": "The Lord of the Rings: The Fellowship of the Ring",
         "options": ["Eddie the Eagle", "Fly Away Home", "LOTR: The Fellowship of the Ring", "Flight"]
     },
     {
         "id": 3,
+        "type": "multipleChoice",
         "question": "We'll always have Paris",
         "correctAnswer": "Casablanca",
         "options": ["Gone With the Wind", "The Philadelphia Story", "Casablanca", "Sleepless in Seattle"]
@@ -20,144 +23,168 @@
     },
     {
         "id": 4,
+        "type": "multipleChoice",
         "question": "The uhh... stuff that dreams are made of.",
         "correctAnswer": "The Maltese Falcon",
         "options": ["The Big Sleep", "Key Largo", "The Maltese Falcon", "Double Indemnity"]
     },
     {
         "id": 5,
+        "type": "multipleChoice",
         "question": "How could I have known that murder could sometimes smell like honeysuckle?",
         "correctAnswer": "Double Indemnity",
         "options": ["Detour", "In a Lonely Place", "Laura", "Double Indemnity"]
     },
     {
         "id": 6,
+        "type": "multipleChoice",
         "question": "A man doesn't tell a woman what to do. She tells herself.",
         "correctAnswer": "Notorious",
         "options": ["Notorious", "The Killing", "Double Indemnity", "Key Largo"]
     },
     {
         "id": 7,
+        "type": "multipleChoice",
         "question": "Neither do I, baby, but if I have to, I'm going to die last.",
         "correctAnswer": "Out of the Past",
         "options": ["Detour", "Out of the Past", "Double Indemnity", "To Have and Have Not"]
     },
     {
         "id": 8,
+        "type": "multipleChoice",
         "question": "Badges? We ain't got no badges. We don't need no badges. I don't have to show you any stinking badges.",
         "correctAnswer": "The Treasure of the Sierra Madre",
         "options": ["The Wild Bunch", "For a Few Dollars More", "The Treasure of the Sierra Madre", "Shane"]
     },
     {
         "id": 9,
+        "type": "multipleChoice",
         "question": "I was born when she kissed me. I died when she left me. I lived a few weeks while she loved me.",
         "correctAnswer": "In a Lonely Place",
         "options": ["The Big Sleep", "To Have and Have Not", "Key Largo", "In a Lonely Place"]
     },
     {
         "id": 10,
+        "type": "multipleChoice",
         "question": "I AM big. It's the pictures that got small.",
         "correctAnswer": "Sunset Blvd.",
         "options": ["Sunset Blvd.", "Ace in the Hole", "All That Jazz", "Some Like it Hot"]
     },
     {
         "id": 11,
+        "type": "multipleChoice",
         "question": "Fasten your seatbelts, it's going to be a bumpy night!",
         "correctAnswer": "All About Eve",
         "options": ["The Big Sleep", "All About Eve", "It Happened One Night", "My Man Godfrey"]
     },
     {
         "id": 12,
+        "type": "multipleChoice",
         "question": "You don't understand. I coulda had class. I coulda been a contender. I coulda been somebody, instead of a bum, which is what I am, let's face it. It was you, Charley.",
         "correctAnswer": "On the Waterfront",
         "options": ["To Have and Have Not", "White Heat", "On the Waterfront", "A Streetcar Named Desire"]
     },
     {
         "id": 13,
+        "type": "multipleChoice",
         "question": "Why would a man leave his apartment three times on a rainy night with a suitcase and come back three times?",
         "correctAnswer": "Rear Window",
         "options": ["North by Northwest", "Rear Window", "Psycho", "The Birds"]
     },
     {
         "id": 14,
+        "type": "multipleChoice",
         "question": "Would you like me to tell you the little story of right-hand/left-hand? The story of good and evil?",
         "correctAnswer": "The Night of the Hunter",
         "options": ["The Night of the Hunter", "Out of the Past", "Cape Fear", "Angel Face"]
     },
     {
         "id": 15,
+        "type": "multipleChoice",
         "question": "That's funny, that plane's dustin' crops where there ain't no crops.",
         "correctAnswer": "North by Northwest",
         "options": ["Rear Window", "Shadow of a Doubt", "North by Northwest", "Psycho"]
     },
     {
         "id": 16,
+        "type": "multipleChoice",
         "question": "I haven't seen Berlin yet, from the ground or from the air, and I plan on doing both before the war is over.",
         "correctAnswer": "The Great Escape",
         "options": ["The Magnificent Seven", "The Great Escape", "Bullitt", "The Cincinatti Kid"]
     },
     {
         "id": 17,
+        "type": "multipleChoice",
         "question": "I swear, if you existed, I'd divorce you.",
         "correctAnswer": "Who's Afraid of Virginia Woolf?",
         "options": ["Awakenings", "Who's Afraid of Virginia Woolf?", "Giant", "Cat on a Hot Tin Roof"]
     },
     {
         "id": 18,
+        "type": "multipleChoice",
         "question": "Well that's you, Marlowe. You'll never learn, you're a born loser.",
         "correctAnswer": "The Long Goodbye",
         "options": ["The Big Sleep", "The Long Goodbye", "Marlowe", "Farewell, My Lovely"]
     },
     {
         "id": 19,
+        "type": "multipleChoice",
         "question": "The swan's escaped",
         "correctAnswer": "Hot Fuzz",
         "options": ["The World's End", "Shaun of the Dead", "Hot Fuzz", "Baby Driver"]
     },
     {
         "id": 20,
+        "type": "multipleChoice",
         "question": "Did he just say funky butt loving?",
         "correctAnswer": "Rookie of the Year",
         "options": ["Rookie of the Year", "The Big Green", "A Kid in King Arthur's Court", "Little Big League"]
     },
     {
         "id": 21,
+        "type": "multipleChoice",
         "question": "Keep your lovin' brother happy.",
         "correctAnswer": "Once Upon a Time in the West",
         "options": ["The Wild Bunch", "Once Upon a Time in the West", "Unforgiven", "Shane"]
     },
     {
         "id": 22,
+        "type": "multipleChoice",
         "question": "Leave the gun...take the cannolis",
         "correctAnswer": "The Godfather",
         "options": ["The Godfather", "The Godfather II", "Goodfellas", "Casino"]
     },
     {
         "id": 23,
+        "type": "multipleChoice",
         "question": "Smile, you son of a bitch!",
         "correctAnswer": "Jaws",
         "options": ["The Dentist", "The Meg", "Jaws", "Aliens"]
     },
     {
         "id": 24,
+        "type": "multipleChoice",
         "question": "ATTICA! ATTICA! ATTICA!",
         "correctAnswer": "Dog Day Afternoon",
         "options": ["Dog Day Afternoon", "Serpico", "12 Angry Men", "Network"]
     },
     {
         "id": 25,
+        "type": "multipleChoice",
         "question": "You're gonna eat lightnin' and you're gonna crap thunder!",
         "correctAnswer": "Rocky",
         "options": ["Rocky", "Rocky 2", "Rocky 3", "Creed"]
     },
     {
         "id": 26,
+        "type": "multipleChoice",
         "question": "I'm listening to the fucking song!",
         "correctAnswer": "Slap Shot",
         "options": ["Miracle", "Mystery, Alaska", "Slap Shot", "Semi-Pro"]
     },
     {
         "id": 27,
+        "type": "multipleChoice",
         "question": "You talkin' to me? You talkin' to me?",
         "correctAnswer": "Taxi Driver",
         "options": ["Mean Streets", "Taxi Driver", "Who's That Knocking At My Door?", "Out of the Past"]
@@ -165,138 +192,161 @@
     },
     {
         "id": 28,
+        "type": "multipleChoice",
         "question": "I'm sorry, Dave. I'm afraid I can't do that.",
         "correctAnswer": "2001: A Space Odyssey",
         "options": ["2001: A Space Odyssey", "Blade Runner", "Blade Runner 2049", "A Clockwork Orange"]
     },
     {
         "id": 29,
+        "type": "multipleChoice",
         "question": "A census taker once tried to test me. I ate his liver with some fava beans and a nice chianti.",
         "correctAnswer": "The Silence of the Lambs",
         "options": ["The Big Sleep", "Hannibal", "The Silence of the Lambs", "A Clockwork Orange"]
     },
     {
         "id": 30,
+        "type": "multipleChoice",
         "question": "Closer, please. Clo-ser...",
         "correctAnswer": "The Silence of the Lambs",
         "options": ["A Streetcar Named Desire", "Who's Afraid of Virginia Woolf?", "The Silence of the Lambs", "A Clockwork Orange"]
     },
     {
         "id": 31,
+        "type": "multipleChoice",
         "question": "All right, you proved your point. You broke into my vault. Congratulations, you're a dead man.",
         "correctAnswer": "Ocean's Eleven",
         "options": ["Inside Man", "Once Upon a Time in the West", "Ocean's Eleven", "Casino"]
     },
     {
         "id": 32,
+        "type": "multipleChoice",
         "question": "We're gonna be doin' one thing and one thing only... killin' Nazis",
         "correctAnswer": "Inglourious Basterds",
         "options": ["Ace in the Hole", "Inglourious Basterds", "Farewell, My Lovely", "The Wild Bunch"]
     },
     {
         "id": 33,
+        "type": "multipleChoice",
         "question": "FOOL OF A TOOK",
         "correctAnswer": "The Lord of the Rings: The Fellowship of the Ring",
         "options": ["The Lord of the Rings: The Two Towers", "Willow", "Lord of the Flies", "The Lord of the Rings: The Fellowship of the Ring"]  
     },
     {
         "id": 34,
+        "type": "multipleChoice",
         "question": "You ever dance with the devil in the pale moonlight?",
         "correctAnswer": "Batman",
         "options": ["Batman Begins", "The Dark Knight", "Batman", "Batman Returns"]  
     },
     {
         "id": 35,
+        "type": "multipleChoice",
         "question": "Let me know when your whole life goes up in smoke. Means it's time for a promotion.",
         "correctAnswer": "The Devil Wears Prada",
         "options": ["The Devil Wears Prada", "The Intern", "The Internship", "What Women Want"]  
     },
     {
         "id": 36,
+        "type": "multipleChoice",
         "question": "But if it makes you happy to feed squirrels to the nuts, who am I to say, 'nuts to the squirrels?'",
         "correctAnswer": "Cluny Brown",
         "options": ["Cluny Brown", "Gilda", "The Big Sleep", "Brief Encounter"]
     },
     {
         "id": 37,
+        "type": "multipleChoice",
         "question": "The power to kill can be just as satisfying as the power to create.",
         "correctAnswer": "Rope",
         "options": ["Psycho", "The Birds", "Rope", "Sabotage"]
     },
     {
         "id": 38,
+        "type": "multipleChoice",
         "question": "Look down there. Tell me. Would you really feel any pity if one of those dots stopped moving forever?",
         "correctAnswer": "The Third Man",
         "options": ["Citizen Kane", "Back to the Future", "The Third Man", "Ace in the Hole"]   
     },
     {
         "id": 39,
+        "type": "multipleChoice",
         "question": "Made it, Ma! Top of the world!",
         "correctAnswer": "White Heat",
         "options": ["White Heat", "The Roaring Twenties", "Angel Face", "Ace in the Hole"]
     },
     {
         "id": 40,
+        "type": "multipleChoice",
         "question": "Bad news sells best. Cause good news is no news.",
         "correctAnswer": "Ace in the Hole",
         "options": ["All That Jazz", "Ace in the Hole", "Angel Face", "Dog Day Afternoon"]
     },
     {
         "id": 41,
+        "type": "multipleChoice",
         "question": "Scottie, do you believe that someone out of the past - someone dead - can enter and take possession of a living being?",
         "correctAnswer": "Vertigo",
         "options": ["Night of the Living Dead", "Shaun of the Dead", "Vertigo", "Psycho"]
     }, 
     {
         "id": 42,
+        "type": "multipleChoice",
         "question": "That's the way it crumbles... cookie-wise.",
         "correctAnswer": "The Apartment",
         "options": ["The Apartment", "Double Indemnity", "Bruce Almighty", "Evan Almighty"]
     },
     {
         "id": 43,
+        "type": "multipleChoice",
         "question": "Intelligence. Nothing has caused the human race so much trouble as intelligence.",
         "correctAnswer": "Rear Window",
         "options": ["Sabotage", "Tinker, Tailor, Soldier, Spy", "Three Days of the Condor", "Rear Window"]
     },
     {
         "id": 44,
+        "type": "multipleChoice",
         "question": "By the way, you know anything about a man going around playing the harmonica? He's somebody you'd remember. Instead of talking, he plays. And when he better play, he talks.",
         "correctAnswer": "Once Upon a Time in the West",
         "options": ["For a Few Dollars More", "The Good, The Bad and The Ugly", "On the Waterfront", "Once Upon a Time in the West"]
     },
     {
         "id": 45,
+        "type": "multipleChoice",
         "question": "In case I don't see ya, good afternoon, good evening, and good night!",
         "correctAnswer": "The Truman Show",
         "options": ["Spanglish", "The Truman Show", "The Number 23", "The Majestic"]
     },
     {
         "id": 46,
+        "type": "multipleChoice",
         "question": "You're just no longer that good... Will Hunting",
         "correctAnswer": "Jay and Silent Bob Strike Back",
         "options": ["Clerks", "Dogma", "Good Will Hunting", "Jay and Silent Bob Strike Back"]
     },
     {
         "id": 47,
+        "type": "multipleChoice",
         "question": "You guys give up? Or ya thirsty for more?",
         "correctAnswer": "Home Alone",
         "options": ["A Christmas Story", "Home Alone", "Home Alone 2", "Home Alone 3"]
     },
     {
         "id": 48,
+        "type": "multipleChoice",
         "question": "You know, Jill, you remind me of my mother. She was the biggest whore in Alameda and the finest woman that ever lived.",
         "correctAnswer": "Once Upon a Time in the West",
         "options": ["Once Upon a Time in the West", "The Good, The Bad and The Ugly", "For a Few Dollars More", "The Wild Bunch"]
     },
     {
         "id": 49,
+        "type": "multipleChoice",
         "question": "If those little sweethearts won't face German bullets, then by God, they'll face French ones!",
         "correctAnswer": "Paths of Glory",
         "options": ["Paths of Glory", "Full Metal Jacket", "A Clockwork Orange", "Platoon"]
     },
     {
         "id": 50,
+        "type": "multipleChoice",
         "question": "Why would Thorwald want to kill a little dog? Because it knew too much?",
         "correctAnswer": "Rear Window",
         "options": ["Sabotage", "Rear Window", "Vertigo", "Psycho"]

@@ -1,10 +1,10 @@
-// Quiz.jsx
 import React, { useState, useEffect } from 'react';
 import ScoreDisplay from './ScoreDisplay';
 
 const Quiz = ({ selectedQuiz, onQuizComplete }) => {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [userAnswer, setUserAnswer] = useState('');
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
@@ -19,10 +19,13 @@ const Quiz = ({ selectedQuiz, onQuizComplete }) => {
       .catch((error) => console.error('Error fetching quiz questions:', error));
   }, [selectedQuiz]); // Update the questions when selectedQuiz changes
 
-  const handleAnswer = (selectedOption) => {
+  const handleAnswer = () => {
     // Implement logic to handle user's answer and move to the next question
     // Update state accordingly
-    const isCorrect = selectedOption === currentQuestion.correctAnswer;
+    const isCorrect =
+      currentQuestion.type === 'multipleChoice'
+        ? userAnswer.toLowerCase() === currentQuestion.correctAnswer.toLowerCase()
+        : userAnswer.toLowerCase() === currentQuestion.correctAnswer.toLowerCase();
 
     if (isCorrect) {
       setCorrectAnswers((prevCorrectAnswers) => prevCorrectAnswers + 1);
@@ -33,6 +36,7 @@ const Quiz = ({ selectedQuiz, onQuizComplete }) => {
 
     if (nextIndex < quizQuestions.length) {
       setCurrentQuestion(quizQuestions[nextIndex]);
+      setUserAnswer(''); // Clear the user's answer for the next question
     } else {
       // End of quiz logic
       setQuizCompleted(true);
@@ -66,13 +70,26 @@ const Quiz = ({ selectedQuiz, onQuizComplete }) => {
   return (
     <div className='quiz-container'>
       <h2 className='question'>{currentQuestion.question}</h2>
-      <ul>
-        {currentQuestion.options.map((option, index) => (
-          <button className="answer-button" key={index} onClick={() => handleAnswer(option)}>
-            {option}
-          </button>
-        ))}
-      </ul>
+      {currentQuestion.type === 'multipleChoice' ? (
+        <ul>
+          {currentQuestion.options.map((option, index) => (
+            <button className="answer-button" key={index} onClick={() => setUserAnswer(option)}>
+              {option}
+            </button>
+          ))}
+        </ul>
+      ) : (
+        <div className='fill-in-container'>
+          <input
+            type='text'
+            value={userAnswer}
+            onChange={(e) => setUserAnswer(e.target.value)}
+            placeholder='Type your answer...'
+            className='fill-in-box'
+          />
+          <button className="submit-answer-button" onClick={handleAnswer}>Submit Answer</button>
+        </div>
+      )}
     </div>
   );
 };
