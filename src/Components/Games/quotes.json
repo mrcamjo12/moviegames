@@ -267,48 +267,36 @@
     },
     {
         "id": 45,
-        "question": "",
-        "correctAnswer": "",
-        "options": ["", "", "", ""]
+        "question": "In case I don't see ya, good afternoon, good evening, and good night!",
+        "correctAnswer": "The Truman Show",
+        "options": ["Spanglish", "The Truman Show", "The Number 23", "The Majestic"]
     },
     {
         "id": 46,
-        "question": "",
-        "correctAnswer": "",
-        "options": ["", "", "", ""]
+        "question": "You're just no longer that good... Will Hunting",
+        "correctAnswer": "Jay and Silent Bob Strike Back",
+        "options": ["Clerks", "Dogma", "Good Will Hunting", "Jay and Silent Bob Strike Back"]
     },
     {
         "id": 47,
-        "question": "",
-        "correctAnswer": "",
-        "options": ["", "", "", ""]
+        "question": "You guys give up? Or ya thirsty for more?",
+        "correctAnswer": "Home Alone",
+        "options": ["A Christmas Story", "Home Alone", "Home Alone 2", "Home Alone 3"]
     },
     {
         "id": 48,
-        "question": "",
-        "correctAnswer": "",
-        "options": ["", "", "", ""]
-    },
-    {
-        "id": 49,
-        "question": "",
-        "correctAnswer": "",
-        "options": ["", "", "", ""]
-    },
-    {
-        "id": 50,
         "question": "You know, Jill, you remind me of my mother. She was the biggest whore in Alameda and the finest woman that ever lived.",
         "correctAnswer": "Once Upon a Time in the West",
         "options": ["Once Upon a Time in the West", "The Good, The Bad and The Ugly", "For a Few Dollars More", "The Wild Bunch"]
     },
     {
-        "id": 51,
+        "id": 49,
         "question": "If those little sweethearts won't face German bullets, then by God, they'll face French ones!",
         "correctAnswer": "Paths of Glory",
         "options": ["Paths of Glory", "Full Metal Jacket", "A Clockwork Orange", "Platoon"]
     },
     {
-        "id": 52,
+        "id": 50,
         "question": "Why would Thorwald want to kill a little dog? Because it knew too much?",
         "correctAnswer": "Rear Window",
         "options": ["Sabotage", "Rear Window", "Vertigo", "Psycho"]
