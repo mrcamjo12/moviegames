@@ -4,5 +4,119 @@
         "type": "fillInAnswer",
         "question": ["Silence, The Last Waltz, Taxi Driver, Bringing Out the Dead, Goodfellas"],
         "correctAnswer": "Martin Scorsese"
+    },
+    {
+        "id": 2,
+        "type": "fillInAnswer",
+        "question": ["Autumn Sonata, The Seventh Seal, Winter Light, Cries and Whispers, Persona"],
+        "correctAnswer": "Ingmar Bergman"       
+    },
+    {
+        "id": 3,
+        "type": "fillInAnswer",
+        "question": ["Red Beard, Ikiru, Ran, Dreams, Seven Samurai, Rashomon"],
+        "correctAnswer": "Akira Kurosawa"       
+    }, 
+    {
+        "id": 4,
+        "type": "fillInAnswer",
+        "question": ["Alien 3, Seven, The Game, Panic Room, The Social Network"],
+        "correctAnswer": "David Fincher"       
+    }, 
+    {
+        "id": 5,
+        "type": "fillInAnswer",
+        "question": ["The Equalizer, Bait, Training Day, The Shooter, Southpaw"],
+        "correctAnswer": "Antoine Fuqua"       
+    }, 
+    {
+        "id": 6,
+        "type": "fillInAnswer",
+        "question": ["Meet the Parents, Austin Powers, Trumbo, Dinner For Schmucks, The Campaign"],
+        "correctAnswer": "Jay Roach"       
+    }, 
+    {
+        "id": 7,
+        "type": "fillInAnswer",
+        "question": ["Spy Game, Deja Vu, Man on Fire, Unstoppable, Crimson Tide, Top Gun"],
+        "correctAnswer": "Tony Scott"       
+    }, 
+    {
+        "id": 8,
+        "type": "fillInAnswer",
+        "question": ["Contact, Flight, Beowulf, Forrest Gump, Death Becomes Her, Back to the Future"],
+        "correctAnswer": "Robert Zemeckis"       
+    }, 
+    {
+        "id": 9,
+        "type": "fillInAnswer",
+        "question": ["Bottle Rocket, Asteroid City, Fantastic Mr. Fox, Moonrise Kingdom, Rushmore"],
+        "correctAnswer": "Wes Anderson"       
+    }, 
+    {
+        "id": 10,
+        "type": "fillInAnswer",
+        "question": ["The Wrong Man, Vertigo, Rear Window, Rope, Psycho, The Birds"],
+        "correctAnswer": "Alfred Hitchcock"       
+    }, 
+    {
+        "id": 11,
+        "type": "fillInAnswer",
+        "question": ["Munich, Bridge of Spies, Duel, Jaws, Saving Private Ryan"],
+        "correctAnswer": "Steven Spielberg"       
+    }, 
+    {
+        "id": 12,
+        "type": "fillInAnswer",
+        "question": ["Batman, Big Fish, Batman Returns, Beetlejuice, Corpse Bride, The Nightmare Before Christmas"],
+        "correctAnswer": "Tim Burton"       
+    }, 
+    {
+        "id": 13,
+        "type": "fillInAnswer",
+        "question": ["The Long Goodbye, The Player, Nashville, M*A*S*H, Short Cuts"],
+        "correctAnswer": "Robert Altman"       
+    }, 
+    {
+        "id": 14,
+        "type": "fillInAnswer",
+        "question": ["Logan Lucky, Erin Brockovich, Ocean's 11, Contagion, Magic Mike"],
+        "correctAnswer": "Steven Soderbergh"       
+    }, 
+    {
+        "id": 15,
+        "type": "fillInAnswer",
+        "question": ["American Beauty, Skyfall, 1917, Jarhead, Road to Perdition"],
+        "correctAnswer": "Sam Mendes"       
+    }, 
+    {
+        "id": 16,
+        "type": "fillInAnswer",
+        "question": ["Point Break, Zero Dark Thirty, Near Dark, Strange Days, The Hurt Locker"],
+        "correctAnswer": "Kathryn Bigelow"       
+    }, 
+    {
+        "id": 17,
+        "type": "fillInAnswer",
+        "question": ["Full Metal Jacket, Eyes Wide Shut, The Shining, The Killing, Paths of Glory"],
+        "correctAnswer": "Stanley Kubrick"       
+    }, 
+    {
+        "id": 18,
+        "type": "fillInAnswer",
+        "question": ["Inland Empire, Eraserhead, Wild at Heart, Mulholland Drive, Lost Highway"],
+        "correctAnswer": "David Lynch"       
+    }, 
+    {
+        "id": 19,
+        "type": "fillInAnswer",
+        "question": ["Insomnia, Inception, Tenet, Dunkirk, The Dark Knight, Memento"],
+        "correctAnswer": "Christopher Nolan"       
+    }, 
+    {
+        "id": 20,
+        "type": "fillInAnswer",
+        "question": ["Porco Rosso, Ponyo, My Neighbor Totoro, Princess Mononoke, Spirited Away"],
+        "correctAnswer": "Hayao Miyazaki"       
     }
 ]
